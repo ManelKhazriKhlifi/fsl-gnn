@@ -25,20 +25,19 @@ https://github.com/0aub/fsl-gnn.git
 ```
 ## Dataset
 the link of the datasheets are :
-
--UCMerced : http://weegee.vision.ucmerced.edu/datasets/landuse.html
-
--AID: https://pan.baidu.com/s/1mifOBv6#list/path=%2FA
-
--NWPU_RESISC45: https://www.kaggle.com/datasets/aqibrehmanpirzada/nwpuresisc45
-
--WHU-RS19: https://captain-whu.github.io/BED4RS/
-
-
+* UCMerced : http://weegee.vision.ucmerced.edu/datasets/landuse.html
+* AID: https://pan.baidu.com/s/1mifOBv6#list/path=%2FA
+* NWPU_RESISC45: https://www.kaggle.com/datasets/aqibrehmanpirzada/nwpuresisc45
+* WHU-RS19: https://captain-whu.github.io/BED4RS/
+  
 ## demo
 You can train and test the whole process of RS image classification using this 
 
+```ruby
 python3 train.py --dataset WHU-RS19-5-4-1 --num_shots 5 --batch_size 32 --dropout 0.1 --train 1 --test 1
-
+```
+Or 
+```ruby
 python3 train.py --dataset WHU-RS19-8-1-1 --num_shots 1 --batch_size 32 --dropout 0.1 --train 1 --test 1
+```
 
