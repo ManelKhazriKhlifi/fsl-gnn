@@ -5,30 +5,18 @@ This repository contains the code for the following approach named Few-shot Lear
 This repository is the approach designed to classify remote sensing imagery. This approach is a method that classifies remote sensing imagery using few-shot learning and a graph neural network. It has some models used for the classification mission.  
 The advantage of this approach is to reduce the reliance on the label dataset.
 
-
 ## Requirement
-torch>=1.8.0
-
-torchvision>=0.9.0
-
-torchaudio>=0.8.0
-
-scikit-learn>=0.24.0
-
-numpy>=1.19.0
-
-tqdm>=4.60.0
-
-Pillow>=8.0.0
-
-matplotlib>=3.3.0
-
-scipy>=1.6.0
-
-pandas>=1.2.0
-
-seaborn>=0.11.0
-
+* torch>=1.8.0
+* torchvision>=0.9.0
+* torchaudio>=0.8.0
+* scikit-learn>=0.24.0
+* numpy>=1.19.0
+* tqdm>=4.60.0
+* Pillow>=8.0.0
+* matplotlib>=3.3.0
+* scipy>=1.6.0
+* pandas>=1.2.0
+* seaborn>=0.11.0
 
 ## Usage
 clone this repository 
